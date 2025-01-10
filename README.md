@@ -81,3 +81,9 @@ Food Product Explorer is a web application that allows users to search, filter, 
    npm install
    # or
    yarn install
+
+### Folder Structure
+
+The project is organized as follows:
+
+project-name/ ├── src/ │ ├── components/ # Reusable React components │ │ ├── Header.jsx # Header component │ │ ├── Footer.jsx # Footer component │ │ ├── ProductList.jsx # Component for listing products │ │ ├── ProductDetail.jsx# Component for product details │ ├── services/ # API integration and utility functions │ │ ├── ApiService.js # API calls to fetch product data │ ├── styles/ # Stylesheets │ │ ├── index.css # Global styles (using TailwindCSS) │ ├── App.jsx # Main application component │ ├── index.js # Application entry point ├── public/ # Static assets │ ├── index.html # Base HTML template ├── package.json # Project dependencies and scripts ├── README.md # Project documentation ├── .gitignore # Files to ignore in Git
