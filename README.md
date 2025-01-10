@@ -88,21 +88,29 @@ The project is organized as follows:
 ```
 project-name/
 ├── src/
-│   ├── components/        # Reusable React components
-│   │   ├── Header.jsx     # Header component
-│   │   ├── Footer.jsx     # Footer component
-│   │   ├── ProductList.jsx# Component for listing products
-│   │   ├── ProductDetail.jsx # Component for product details
-│   ├── services/          # API integration and utility functions
-│   │   ├── ApiService.js  # API calls to fetch product data
-│   ├── styles/            # Stylesheets
-│   │   ├── index.css      # Global styles (using TailwindCSS)
-│   ├── App.jsx            # Main application component
-│   ├── index.js           # Application entry point
-├── public/                # Static assets
-│   ├── index.html         # Base HTML template
-├── package.json           # Project dependencies and scripts
-├── README.md              # Project documentation
-├── .gitignore             # Files to ignore in Git
+│   ├── components/          # Reusable React components
+│   │   ├── Header.jsx           # Header component
+│   │   ├── ProductList.jsx      # Component for listing products
+│   │   ├── ProductCard.jsx      # Component for individual product display
+│   │   ├── ProductDetail.jsx    # Component for product details
+│   │   ├── ProductDetailPage.jsx# Page for detailed product view
+│   │   ├── SearchBar.jsx        # Search bar component
+│   │   ├── HomePage.jsx         # Homepage component
+│   │   ├── BarcodeScanner.jsx   # Component for scanning barcodes
+│   │   ├── FilterModal.jsx      # Modal for filtering products
+│   ├── services/             # API integration and utility functions
+│   │   ├── ApiService.js      # API calls to fetch product data
+│   ├── context/              # Context for state management
+│   │   ├── ProductContext.js  # Context to manage product-related state
+│   ├── styles/               # Stylesheets
+│   │   ├── index.css         # Global styles (using TailwindCSS)
+│   ├── App.jsx               # Main application component
+│   ├── index.js              # Application entry point
+├── public/                   # Static assets
+│   ├── index.html            # Base HTML template
+├── package.json              # Project dependencies and scripts
+├── README.md                 # Project documentation
+├── .gitignore                # Files to ignore in Git
+       
 
 ```
