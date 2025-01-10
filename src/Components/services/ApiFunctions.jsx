@@ -12,7 +12,6 @@ export const fetchProductByBarcode = async (barcode) => {
 
 export const fetchCategoriesForFilter = async () => {
   const response = await axios.get("https://world.openfoodfacts.org/categories.json");
-  console.log(response)
   return response;
 };
 
