@@ -27,7 +27,6 @@ export const searchProductsByName = async (name) => {
 };
 
 export const fetchProductById= async (id) => {
-  console.log("hi")
   const response= await foodFactsApi.get(`/product/${id}.json`);
   console.log(response)
   return response;
