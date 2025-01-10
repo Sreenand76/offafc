@@ -111,6 +111,12 @@ project-name/
 ├── package.json              # Project dependencies and scripts
 ├── README.md                 # Project documentation
 ├── .gitignore                # Files to ignore in Git
+
+```
+## Demo
+
+### Homepage
+![Homepage](./public/homepage.png)
        
 
 ```
