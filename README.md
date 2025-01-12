@@ -72,7 +72,7 @@ Food Product Explorer is a web application that allows users to search, filter, 
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/food-product-explorer.git
+   git clone https://github.com/Sreenand76/offafc.git
    cd food-product-explorer
 
 2. Install dependencies:
